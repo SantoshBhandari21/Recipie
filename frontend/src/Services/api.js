@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const apiRequest = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://recipie-backend-wvpo.onrender.com/api",
   withCredentials: true,
 });
